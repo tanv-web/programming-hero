@@ -1,0 +1,44 @@
+nav {
+    justify-content: space-between;
+    display: flex;
+    margin: 47px 90px 0 90px;
+}
+
+.logo {
+    font-weight: 850;
+    font-size: xx-large;
+    color: mediumblue;
+    font-family: monospace;
+}
+
+.sign-up {
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    background-color: mediumblue;
+    padding: 7px 13px 7px 13px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 270px;  
+    margin-bottom: 27px; 
+    font-size: 50px;
+}
+
+.stay-focused {
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    background-color: mediumblue;
+    padding: 7px 13px 7px 13px;
+    border-radius: 8px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
