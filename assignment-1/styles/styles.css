@@ -95,3 +95,38 @@ h1 {
     padding: 20px 110px 20px 110px; 
 }
 
+.stats {
+    background-color: #f1f3ff; 
+    border-radius: 20px;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 100px auto; 
+    text-align: center;
+}
+
+.stats h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+}
+
+.stat-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+}
+
+.stat h3 {
+    color: #5f3dc4; 
+    font-size: 70px;
+    margin: 0;
+}
+
+.stat p {
+    margin-top: 10px;
+    color: gray;
+    font-size: 16px;
+}
+
