@@ -10,9 +10,9 @@ nav {
     margin-top: 60px;
 }
 
-.logo {
+.logo-nav {
     font-weight: 850;
-    font-size: xx-large;
+    font-size: 40px;
     color: mediumblue;
     font-family: monospace;
 }
@@ -20,9 +20,9 @@ nav {
 .sign-up {
     color: white;
     font-weight: 700;
-    font-size: larger;
+    font-size: 40px;
     background-color: mediumblue;
-    padding: 7px 13px 7px 13px;
+    padding: 7px 30px 7px 30px;
     border-radius: 8px;
 }
 
@@ -264,7 +264,7 @@ h1 {
     margin: 0 auto;
 }
 
-.logo {
+.logo-footer {
     font-size: 60px;
     color: mediumblue;
     font-weight: 700;
