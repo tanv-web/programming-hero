@@ -1,125 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webflow</title>
-    <link rel="stylesheet" href="styles/styles.css">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebFlow Agency</title> 
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 <body>
-    <header class="hero">
-        <nav>
-            <div class="logo-nav">LOGO</div>
-            <button class="sign-up" type="button">Sign Up</button>
-        </nav>
 
-        <section class="banner">
-            <h1>Cool Dark UI Template for <br> Webflow Agencies!</h1>
-            <button class="stay-focused" type="button">Stay Focused</button>
-        
-        </section>
-    </header>
+  <div class="hero">
+ <header>
+  <nav>
+      <div id="main-logo">LOGO</div>
+      <button id="sign-up" type="button">Sign Up</button>
+  </nav>
+ </header>
+ 
+   <main>
+ <section class="opening">
+  <h1>Cool Dark UI Template for Webflow Agencies!</h1>
+  <button type="button">Stay Focused</button>
+ </section>
+ </div>
+
+ <section class="action-conf">
+  <div class="action">
+    <h2>See It in Action</h2>
+    <p>Explore the live preview of and imgaine your <br> brand in this bold new look.</p>
+    <button type="button">Launch Live Preview</button>
+  </div>
+
+  <div class="conf">
+    <img src="assets/wc-mini.png" width="300px" height="230px" alt="Webflow Conference 2022 image">
+  </div>
+ </section>
+
+ <section class="stats">
+   <h3>Joined Thousands of Productive Users</h3>
+    <div>
+      <p>50K</p>
+      <p>Active Users</p>
+    </div>
+
+    <div>
+      <p>2M+</p>
+      <p>Focused Sessions</p>
+    </div>
+
+    <div>
+      <p>95%</p>
+      <p>Satisfaction Rate</p>
+    </div>
+ </section>
+
+ <section class="testimonials">
+  <p class="heading">What our users say</p>
+  <div class="user">
+    <div class="star-icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+   </div>
     
-    <main>
-        <section class="action">
-            <div class="action-text">
-              <h2>See it in Action</h2> <br>
-              <p>Explore the live preview and imagine your <br> brand in this bold new look.</p>
-              <button type="button">Launch Live Preview</button>
-            </div> 
+    <p class="quote-1">Loved by designers</p>
+    <p class="quote-2">This template instantly leveled up our <br> presence."-Studio Vertex</p>
 
-           <img src="assets/wc-mini.png" alt="Webflow-conf">
-        </section>
-        
-        <section class="stats">
-         <h2>Joined Thousands of Productive Users</h2>
-           <div class="stat-cards">
-           <div class="stat">
-            <h3>50K</h3>
-            <p>Active Users</p>
-          </div>
-          <div class="stat">
-            <h3>2M+</h3>
-            <p>Focus Sessions</p>
-          </div>
-         <div class="stat">
-            <h3>95%</h3>
-            <p>Satisfaction Rate</p>
-        </div>
-        </div>
-     </section>
-     
-   <section class="testimonials">
-    <h2>What our users say</h2>
-    <div class="testimonial-cards">
-        <div class="testimonial">
-            <div class="stars">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-            </div>
-            <p>Loved by Designers<br>This template instantly leveled up our presence." — Studio Vertex</p>
-            <div class="reviewer">
-                <img src="assets/avatar.png" alt="Reviewer" class="avatar">
-                <span>Reviewer name<br>Date</span>
-            </div>
-        </div>
-        <div class="testimonial">
-            <div class="stars">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-            </div>
-            <p>Loved by Designers<br>This template instantly leveled up our presence." — Studio Vertex</p>
-            <div class="reviewer">
-                <img src="assets/avatar.png" alt="Reviewer" class="avatar">
-                <span>Reviewer name<br>Date</span>
-            </div>
-        </div>
-        <div class="testimonial">
-            <div class="stars">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-                <img src="assets/icon-star.png" alt="Star">
-            </div>
-            <p>Loved by Designers<br>This template instantly leveled up our presence." — Studio Vertex</p>
-            <div class="reviewer">
-                <img src="assets/avatar.png" alt="Reviewer" class="avatar">
-                <span>Reviewer name<br>Date</span>
-            </div>
-        </div>
+    <div class="user-info">
+      <img src="assets/avatar.png" height="50px" width="50px" alt="User image" >
+      <p>Reviewer name <span>Date</span></p> 
     </div>
-</section>
-  
-  <section class="contact">
-    <h2>Let's Get in Touch</h2>
-    <form>
-        <input type="email" placeholder="example@email.com" required>
-        <input type="text" placeholder="full name" required>
-        <textarea placeholder="write your message..."></textarea>
-        <button type="submit">Get in Touch</button>
-    </form>
-</section>   
-    </main>
+   </div>
+
+  <div class="user">
+    <div class="star-icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    </div>
+    
+    <p class="quote-1">Loved by designers</p>
+    <p class="quote-2">This template instantly leveled up our <br> presence."-Studio Vertex</p>
+
+    <div class="user-info">
+      <img src="assets/avatar.png" height="50px" width="50px" alt="User image">
+      <p>Reviewer name <span>Date</span></p> 
+    </div>
+  </div>
+
+  <div class="user">
+    <div class="star-icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    <img src="assets/icon-star.png" alt="Star icon">
+    </div>
    
-    <footer class="footer">
-    <div class="footer-content">
-        <div class="logo-footer">LOGO</div>
-        <p>Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
-        <nav class="footer-nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#how-it-works">How it Works</a>
-            <a href="#services">Services</a>
-        </nav>
-    </div>
-</footer>
+    <p class="quote-1">Loved by designers</p>
+    <p class="quote-2">This template instantly leveled up our <br> presence."-Studio Vertex</p>
 
+    <div class="user-info">
+      <img src="assets/avatar.png" height="50px" width="50px" alt="User image">
+      <p>Reviewer name <span>Date</span></p>
+    </div>
+  </div>
+ </section>
+
+ <section class="user-engage">
+  <div class="heading">
+    <p>Let's get in <br> touch</p>
+  </div>
+
+  <div class="form">
+   <form>
+     <label for="name">Name</label> 
+     <input type="text" placeholder="Full name" name="" id="name"> 
+
+     <label for="email">Email</label> 
+     <input type="email" placeholder="example@email.com" name="" id="email"> 
+
+     <label for="message">Message</label> 
+     <textarea name="" placeholder="Write your message" id="message"></textarea>
+
+     <input type="submit" value="Get in Touch" id="submit">
+   </form>
+  </div>
+ </section>
+  </main>
+
+   <footer>
+     <div>
+       <p class="footer-logo">LOGO</p>
+       <P class="invite">Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</P>
+       <nav>
+         <a href="">Home</a>
+         <a href="">About</a>
+         <a href="">How it works</a>
+         <a href="">Services</a>
+       </nav>
+     </div>
+   </footer>
 </body>
 </html>
+
