@@ -43,7 +43,7 @@ nav {
 }
 
 .hero {
-    background-image: url(assets/Hero-bg.png);
+    background-image: url("/assignment-1/assets/Hero-bg.png");
     padding-bottom: 170px;
     border-radius: 10px;
 }
