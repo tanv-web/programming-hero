@@ -178,3 +178,13 @@ footer a {
 footer nav {
     padding-top: 30px;
 }
+
+.deals {
+    display: block;
+    text-align: center;
+}
+
+.deals h3 {
+    font-size: x-large;
+    font-weight: bolder;
+}
