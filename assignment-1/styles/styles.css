@@ -8,7 +8,7 @@ nav {
     justify-content: space-between;     
 }
 
-#main-logo {
+.main-logo {
   font-size:x-large;
   font-weight: bolder;
   color: blue;
