@@ -11,10 +11,9 @@ heartIcon.forEach((icon) => {
 });
 
 const callButton = document.querySelectorAll(".call-button");
-const coinCount = document.getElementById('coin-count')
+const coinCount = document.getElementById("coin-count");
+const serviceName = document.querySelectorAll(".service-name").textContent;
 
-callButton.forEach(button => {
-    button.addEventListener('click', () => {
-       
-    })
-})
+callButton.forEach((button) => {
+  button.addEventListener("click", () => {});
+});
